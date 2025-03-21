@@ -1,0 +1,63 @@
+/* CSS Start */
+:root {
+  --text-color: #181515; /* Off-white text */
+  --font-text: "Poppins", sans-serif;
+  --blue-color: #2646A6;
+  --blue-light:#2561D9;
+  --blue-dark:#20448C;
+  --orange-color:#D9753B;
+  --brown-color:#8C7669;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;  /* Prevents horizontal scrolling */
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  color: var(--text-color);
+  font-family: var(--font-text);
+  letter-spacing: 0.05em;
+  background-attachment: fixed;
+  background-color: #2646A6; /* Ensures pure black background */
+  background-image: url(./assets/noise.svg);
+  background-repeat: repeat; /* Tiles the noise properly */
+  background-size: 400px; /* Adjust size for the effect */
+}
+
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+

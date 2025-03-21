@@ -1,0 +1,20 @@
+:root {
+  --text-color: #181515; /* Off-white text */
+  --font-text: "Poppins", sans-serif;
+  --blue-color: #2646A6;
+  --blue-light:#2561D9;
+  --blue-dark:#20448C;
+  --orange-color:#D9753B;
+  --brown-color:#8C7669;
+}
+
+
+main {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
