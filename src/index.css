@@ -24,17 +24,25 @@ html {
 
 body {
   margin: 0;
-  padding:0;
+  padding: 0;
   color: var(--text-color);
   font-family: var(--font-text);
   letter-spacing: 0.05em;
-  background-attachment: fixed;
-  background-color: #2646A6; /* Ensures pure black background */
-  background-image: url(./assets/noise.svg);
-  background-repeat: repeat; /* Tiles the noise properly */
-  background-size: 400px; /* Adjust size for the effect */
-}
 
+  background-color: #2646A6; /* Base color */
+
+  background-image: 
+    url('./assets/noise.svg'),  /* Noise texture */
+    url('./assets/court.svg');  /* Court image */
+
+  background-repeat: repeat, no-repeat; /* Noise repeats, court stays one big image */
+  background-size: 400px, contain; /* Noise is tiled, court scales */
+  background-position: top left, center; /* Noise starts from top left, court stays centered */
+
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed; /* Keeps it stable */
+}
 
 img {
   max-width: 100%;
