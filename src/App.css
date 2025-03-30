@@ -15,3 +15,46 @@ main {
   font-family: var(--font-text);
   padding-top: 2em;
 }
+
+/* Projects */
+
+.containerProjects {
+  padding-top: 5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns, equal width */
+  gap: 20px;
+}
+
+/* Responsive Media Query for Smartphones */
+@media (max-width: 768px) {
+  .containerProjects {
+    grid-template-columns: 1fr; /* 1 column */
+  }
+}
+
+.project {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  display: flex;  /* Use flexbox */
+  flex-direction: column;  /* Ensure content is stacked vertically */
+}
+
+.project img {
+  width: 100%; /* Make images fill the container */
+  height: 100%;
+  object-fit: cover;
+}
+
+.linkProject {
+  border: .5px solid white;
+  display: block;
+  text-decoration: none;
+  color: inherit; /* Prevents text from turning blue */
+}
+
+p {
+  margin-bottom: 1px;
+  padding-top: 1em;
+  
+  
+}
