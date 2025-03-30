@@ -1,5 +1,5 @@
 :root {
-  --text-color: #181515; /* Off-white text */
+  --text-color: white; /* Off-white text */
   --font-text: "Poppins", sans-serif;
   --blue-color: #2646A6;
   --blue-light:#2561D9;
@@ -11,10 +11,7 @@
 
 main {
   text-align: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  color: var(--text-color);
+  font-family: var(--font-text);
+  padding-top: 2em;
 }

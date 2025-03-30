@@ -6,8 +6,8 @@ function Main() {
       <>
         <main>
             <div className="container">
-                <h1>Like a Basketball Court, but for Coding.</h1>
-                <p>Coming soon...</p>
+                <h1>[Code Court]</h1>
+                <p>like a basketball court, but for coding—my playground for experimenting, having fun, refining skills, and testing new ideas.</p>
             </div>
         
         </main>
